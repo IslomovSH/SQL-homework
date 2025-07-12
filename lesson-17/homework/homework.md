@@ -284,6 +284,40 @@ INSERT INTO Employee VALUES
 | C98787    | 67     |
 | C98787    | 86     |
 | C98787    | 91     |
+
+-- Step 1: Create the table
+CREATE TABLE Numbers (
+    Number INT
+);
+
+-- Step 2: Insert values into the table
+INSERT INTO Numbers (Number)
+VALUES
+(25),
+(45),
+(78);
+
+
+-- Step 1: Create the Tickets table
+CREATE TABLE Tickets (
+    TicketID VARCHAR(10),
+    Number INT
+);
+
+-- Step 2: Insert the data into the table
+INSERT INTO Tickets (TicketID, Number)
+VALUES
+('A23423', 25),
+('A23423', 45),
+('A23423', 78),
+('B35643', 25),
+('B35643', 45),
+('B35643', 98),
+('C98787', 67),
+('C98787', 86),
+('C98787', 91);
+
+
 ```
 
 **Expected Output would be $110, as you have one winning ticket, and one ticket that has some but not all the winning numbers.**
