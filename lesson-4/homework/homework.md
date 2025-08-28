@@ -46,7 +46,7 @@ ________________________________________
 ________________________________________
 
 ## 🔴 Hard-Level Tasks 
-20. Write a query that selects the top 5 products with the highest sales, using TOP(5) and ordered by SalesAmount DESC.
+20. Write a query that selects the top 5 products with the highest sales, using TOP(5) and ordered by SaleAmount DESC.
 21. Combine FirstName and LastName into one column named FullName in the Employees table. (only in select statement)
 22. Write a query to select the distinct Category, ProductName, and Price for products that are priced above $50, using DISTINCT on three columns.
 23. Write a query that selects products whose Price is less than 10% of the average price in the Products table. (Do some research on how to find average price of all products)
