@@ -24,7 +24,7 @@
 3. Write a query that filters the Products table to show products with Price > 100.
 4. Write a query to select all Customers whose FirstName start with 'A' using the LIKE operator.
 5. Order the results of a Products table by Price in ascending order.
-6. Write a query that uses the WHERE clause to filter for employees with Salary >= 60000 and Department = 'HR'.
+6. Write a query that uses the WHERE clause to filter for employees with Salary >= 60000 and DepartmentName = 'HR'.
 7. Use ISNULL to replace NULL values in the Email column with the text "noemail@example.com".From  Employees table
 8. Write a query that shows all products with Price BETWEEN 50 AND 100.
 9. Use SELECT DISTINCT on two columns (Category and ProductName) in the Products table.
@@ -36,9 +36,9 @@ ________________________________________
 11. Write a query to select the top 10 products from the Products table, ordered by Price DESC.
 12. Use COALESCE to return the first non-NULL value from FirstName or LastName in the Employees table.
 13. Write a query that selects distinct Category and Price from the Products table.
-14. Write a query that filters the Employees table to show employees whose Age is either between 30 and 40 or Department = 'Marketing'.
+14. Write a query that filters the Employees table to show employees whose Age is either between 30 and 40 or DepartmentName = 'Marketing'.
 15. Use OFFSET-FETCH to select rows 11 to 20 from the Employees table, ordered by Salary DESC.
-16. Write a query to display all products with Price <= 1000 and Stock > 50, sorted by Stock in ascending order.
+16. Write a query to display all products with Price <= 1000 and StockQuantity > 50, sorted by Stock in ascending order.
 17. Write a query that filters the Products table for ProductName values containing the letter 'e' using LIKE.
 18. Use IN operator to filter for employees who work in either 'HR', 'IT', or 'Finance'.
 19. Use ORDER BY to display a list of customers ordered by City in ascending and PostalCode in descending order.Use customers table
