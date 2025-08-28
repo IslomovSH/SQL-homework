@@ -23,7 +23,7 @@ ________________________________________
 4. Write a query to find the intersection of Products and Products_Discounted tables using INTERSECT.
 5. Write a query to select distinct customer names and their corresponding Country using SELECT DISTINCT.
 6. Write a query that uses CASE to create a conditional column that displays 'High' if Price > 1000, and 'Low' if Price <= 1000 from Products table.
-7. Use IIF to create a column that shows 'Yes' if Stock > 100, and 'No' otherwise (Products_Discounted table, StockQuantity column).
+7. Use IIF to create a column that shows 'Yes' if StockQuantity > 100, and 'No' otherwise (Products_Discounted table, StockQuantity column).
 ________________________________________
 
 ##  Medium-Level Tasks 
