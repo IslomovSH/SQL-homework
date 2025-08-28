@@ -238,7 +238,8 @@ CREATE TABLE Sales (
     UnitPrice DECIMAL(10,2),
     SaleDate DATE,
     Region VARCHAR(50),
-    CustomerID INT
+    CustomerID INT,
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
 
 INSERT INTO Sales (Product, Category, QuantitySold, UnitPrice, SaleDate, Region, CustomerID)
@@ -264,6 +265,7 @@ VALUES
 ('Air Conditioner', 'Appliances', 2, 2000.00, '2024-01-19', 'West', 9),
 ('Camera', 'Electronics', 7, 900.00, '2024-01-20', 'North', 10);
 
+
 ```
 7. What is the total revenue generated from all sales?  
 8. What is the average unit price of products?  
@@ -285,6 +287,7 @@ CREATE TABLE Customers (
     Region VARCHAR(50),
     JoinDate DATE
 );
+
 INSERT INTO Customers (CustomerName, Region, JoinDate)
 VALUES
 ('John Doe', 'North', '2022-03-01'),
@@ -297,6 +300,7 @@ VALUES
 ('Kevin Anderson', 'South', '2021-12-05'),
 ('Sophia Moore', 'North', '2023-02-17'),
 ('Daniel Garcia', 'East', '2022-08-22');
+
 ```
 
 17. Show all sales along with the corresponding customer names  
