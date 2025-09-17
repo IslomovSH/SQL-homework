@@ -37,11 +37,11 @@
 
 
 ## Difficult Tasks
-1. Write an SQL query that separates the uppercase letters, lowercase letters, numbers, and other characters from the given string 'tf56sd#%OqH' into separate columns.
-2. Write an SQL query that replaces each row with the sum of its value and the previous rows' value. (Students table)
-3. You are given the following table, which contains a VARCHAR column that contains mathematical equations. Sum the equations and provide the answers in the output.(Equations)
-4. Given the following dataset, find the students that share the same birthday.(Student Table)
-5. You have a table with two players (Player A and Player B) and their scores. If a pair of players have multiple entries, aggregate their scores into a single row for each unique pair of players. Write an SQL query to calculate the total score for each unique player pair(PlayerScores)
+1. Write an SQL query that replaces each row with the sum of its value and the previous rows' value. (Students table)
+2. Given the following dataset, find the students that share the same birthday.(Student Table)
+3. You have a table with two players (Player A and Player B) and their scores. If a pair of players have multiple entries, aggregate their scores into a single row for each unique pair of players. Write an SQL query to calculate the total score for each unique player pair(PlayerScores)
+4. Write an SQL query that separates the uppercase letters, lowercase letters, numbers, and other characters from the given string 'tf56sd#%OqH' into separate columns.
+ 
 
 ```sql
 
@@ -220,16 +220,6 @@ INSERT INTO DMLTable (SequenceNumber, String) VALUES
 (9,'> 100');
 GO
 
-CREATE TABLE Equations
-(
-Equation  VARCHAR(200) PRIMARY KEY,
-TotalSum  INTEGER NULL
-);
-GO
-
-INSERT INTO Equations (Equation) VALUES
-('123'),('1+2+3'),('1+2-3'),('1+23'),('1-2+3'),('1-2-3'),('1-23'),('12+3'),('12-3');
-GO
 
 CREATE TABLE Student
 (
@@ -325,19 +315,6 @@ INSERT INTO PlayerScores (PlayerA, PlayerB, Score) VALUES
 (1001,2002,150),(3003,4004,15),(4004,3003,125);
 GO
 
-CREATE TABLE Personal
-(
-SpacemanID      INTEGER PRIMARY KEY,
-JobDescription  VARCHAR(100) NOT NULL,
-MissionCount    INTEGER NOT NULL
-);
-GO
-
-INSERT INTO Personal (SpacemanID, JobDescription, MissionCount) VALUES
-(1001,'Astrogator',6),(2002,'Astrogator',12),(3003,'Astrogator',17),
-(4004,'Geologist',21),(5005,'Geologist',9),(6006,'Geologist',8),
-(7007,'Technician',13),(8008,'Technician',2),(9009,'Technician',7);
-GO
 ```
 
 
