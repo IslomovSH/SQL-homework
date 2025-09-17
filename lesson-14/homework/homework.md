@@ -13,10 +13,9 @@
 1. Write a SQL query to split the Name column by a comma into two separate columns: Name and Surname.(TestMultipleColumns)
 2. Write a SQL query to find strings from a table where the string itself contains the % character.(TestPercent)
 3. Split a string based on dot(.).(Splitter)
-4. Write a SQL query to replace all integers (digits) in the string with 'X'.(1234ABC123456XYZ1234567890ADS)
 5. Write a SQL query to return all rows where the value in the Vals column contains more than two dots (.).(testDots)
 6. Write a SQL query to count the spaces present in the string.(CountSpaces)
-7. write a SQL query that finds out employees who earn more than their managers.(Employee)
+7. Write a SQL query that finds out employees who earn more than their managers.(Employee)
 8. Find the employees who have been with the company for more than 10 years, but less than 15 years. Display their Employee ID, First Name, Last Name, Hire Date, and the Years of Service (calculated as the number of years between the current date and the hire date).(Employees)
 
 # Medium Tasks
