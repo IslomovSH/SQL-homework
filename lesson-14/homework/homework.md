@@ -12,7 +12,7 @@
 # Easy Tasks
 1. Write a SQL query to split the Name column by a comma into two separate columns: Name and Surname.(TestMultipleColumns)
 2. Write a SQL query to find strings from a table where the string itself contains the % character.(TestPercent)
-3. In this puzzle you will have to split a string based on dot(.).(Splitter)
+3. Split a string based on dot(.).(Splitter)
 4. Write a SQL query to replace all integers (digits) in the string with 'X'.(1234ABC123456XYZ1234567890ADS)
 5. Write a SQL query to return all rows where the value in the Vals column contains more than two dots (.).(testDots)
 6. Write a SQL query to count the spaces present in the string.(CountSpaces)
