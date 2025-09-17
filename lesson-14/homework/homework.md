@@ -13,19 +13,17 @@
 1. Write a SQL query to split the Name column by a comma into two separate columns: Name and Surname.(TestMultipleColumns)
 2. Write a SQL query to find strings from a table where the string itself contains the % character.(TestPercent)
 3. Split a string based on dot(.).(Splitter)
-5. Write a SQL query to return all rows where the value in the Vals column contains more than two dots (.).(testDots)
-6. Write a SQL query to count the spaces present in the string.(CountSpaces)
-7. Write a SQL query that finds out employees who earn more than their managers.(Employee)
-8. Find the employees who have been with the company for more than 10 years, but less than 15 years. Display their Employee ID, First Name, Last Name, Hire Date, and the Years of Service (calculated as the number of years between the current date and the hire date).(Employees)
+4. Write a SQL query to return all rows where the value in the Vals column contains more than two dots (.).(testDots)
+5. Write a SQL query to count the spaces present in the string.(CountSpaces)
+6. Write a SQL query that finds out employees who earn more than their managers.(Employee)
+7. Find the employees who have been with the company for more than 10 years, but less than 15 years. Display their Employee ID, First Name, Last Name, Hire Date, and the Years of Service (calculated as the number of years between the current date and the hire date).(Employees)
 
 # Medium Tasks
-1. Write a SQL query to separate the integer values and the character values into two different columns.(rtcfvty34redt)
-2. write a SQL query to find all dates' Ids with higher temperature compared to its previous (yesterday's) dates.(weather)
-3. Write an SQL query that reports the first login date for each player.(Activity)
-4. Your task is to return the third item from that list.(fruits)
-5. Write a SQL query to create a table where each character from the string will be converted into a row.(sdgfhsdgfhs@121313131)
-6. You are given two tables: p1 and p2. Join these tables on the id column. The catch is: when the value of p1.code is 0, replace it with the value of p2.code.(p1,p2)
-7. Write an SQL query to determine the Employment Stage for each employee based on their HIRE_DATE. The stages are defined as follows:
+
+1. write a SQL query to find all dates' Ids with higher temperature compared to its previous (yesterday's) dates.(weather)
+2. Write an SQL query that reports the first login date for each player.(Activity)
+3. Your task is to return the third item from that list.(fruits)
+4. Write an SQL query to determine the Employment Stage for each employee based on their HIRE_DATE. The stages are defined as follows:
 
 > - If the employee has worked for less than 1 year → 'New Hire'
 
@@ -36,13 +34,14 @@
 > -  If the employee has worked for 10 to 20 years → 'Senior'
 
 > - If the employee has worked for more than 20 years → 'Veteran'(Employees)
-8. Write a SQL query to extract the integer value that appears at the start of the string in a column named Vals.(GetIntegers)
+5. Write a SQL query to extract the integer value that appears at the start of the string in a column named Vals.(GetIntegers)
 
 
 # Difficult Tasks
 1. In this puzzle you have to swap the first two letters of the comma separated string.(MultipleVals)
-2. Write a SQL query that reports the device that is first logged in for each player.(Activity)
-3. You are given a sales table. Calculate the week-on-week percentage of sales per area for each financial week. For each week, the total sales will be considered 100%, and the percentage sales for each day of the week should be calculated based on the area sales for that week.(WeekPercentagePuzzle)
+2. Write a SQL query to create a table where each character from the string will be converted into a row.(sdgfhsdgfhs@121313131)
+3. Write a SQL query that reports the device that is first logged in for each player.(Activity)
+4. Write a SQL query to separate the integer values and the character values into two different columns.(rtcfvty34redt)
 
 
 ```sql
